@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Neues Projekt</title>
+    <!--     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/layout.css"> -->
+    <link rel="stylesheet" href="ajax.css">
+    <script type='text/javascript' src='ajax.js'></script>
+</head>
+
+<body>
+    <!--     <div class="wrapper">
+        <header>
+            <h1>Neues Projekt</h1>
+        </header>
+        <main>
+            <h2>Das Projekt</h2>
+        </main>
+
+    </div> -->
+
+    <div id="wrapper">
+        <div id="header">
+            <h1>PHP Ajax Demo</h1>
+        </div>
+        <div id="content">
+            <h2>"Watch it!!"</h2>
+            <p>The words below will be replaced by "Hello World" which is pulled from the 'myfirstprogram.php' file via AJAX.</p>
+            <h2>AJAX DEMO</h2>
+            <input type='button' onclick='AjaxRequest();' value='Find Hello World!' /><br /><br />
+            <div id='AjaxResponse'>
+                Pay attention... Notice when you click the button that only this section changes.
+            </div>
+        </div> <!-- end of content -->
+        <div id="footer">Copyright &copy; 2014 Steve Prettyman
+        </div><!-- end of footer -->
+    </div> <!-- end of wrapper -->
+</body>
+
+</html>

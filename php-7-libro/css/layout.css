@@ -1,0 +1,22 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 86%;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2), 0 5px 5px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 1.5em;
+}
+
+header {
+    background-color: #EAEAEA;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+main {
+    padding: 1.5em 1em;
+}
